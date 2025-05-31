@@ -9,6 +9,7 @@ import Art from "./Components/art";
 import Animation from "./Components/animation";
 import Contact from "./Components/contact";
 import { Toaster } from "react-hot-toast";
+import Error from "./Components/error"
 
 // Preloader Component
 const Preloader = ({ onLoadingComplete }) => {
@@ -248,6 +249,7 @@ function App() {
             <Route path="/art" element={<Art />} />
             <Route path="/animation" element={<Animation />} />
             <Route path="/contact-us" element={<Contact />} />
+            <Route path="/under-constructions" element={<Error />} />
           </Routes>
         </div>
         <Footer />

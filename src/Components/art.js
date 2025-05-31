@@ -1,7 +1,9 @@
+import Error from "./error"
+
 const Art = () => {
     return ( 
         <div className="art">
-            art
+            <Error />
         </div>
      );
 }

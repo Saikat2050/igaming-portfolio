@@ -23,19 +23,19 @@ const Footer = () => {
               experiences and digital innovations.
             </p>
             <div className="social-links">
-              <a href="#" className="social-link" aria-label="Instagram">
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="Instagram">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="social-link" aria-label="YouTube">
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="YouTube">
                 <Youtube size={18} />
               </a>
-              <a href="#" className="social-link" aria-label="Twitter">
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="Twitter">
                 <Twitter size={18} />
               </a>
-              <a href="#" className="social-link" aria-label="Facebook">
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="Facebook">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="social-link" aria-label="RSS">
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="RSS">
                 <Rss size={18} />
               </a>
             </div>
@@ -65,19 +65,19 @@ const Footer = () => {
             <h4 className="footer-title">Featured Games</h4>
             <ul className="footer-links">
               <li>
-                <a href="#bet-arena">Bet Arena</a>
+                <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Bet Arena</a>
               </li>
               <li>
-                <a href="#aqua-gaming">Aqua Gaming</a>
+                <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Aqua Gaming</a>
               </li>
               <li>
-                <a href="#ghostfather">Ghostfather Awakened</a>
+                <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Ghostfather Awakened</a>
               </li>
               <li>
-                <a href="#gang-boss">Gang Boss</a>
+                <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Gang Boss</a>
               </li>
               <li>
-                <a href="#jungle-beast">Jungle Beast</a>
+                <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Jungle Beast</a>
               </li>
             </ul>
           </div>
@@ -90,16 +90,16 @@ const Footer = () => {
                 <Link to="/contact-us">Contact Us</Link>
               </li>
               <li>
-                <Link to="#support">Support</Link>
+                <Link to="/under-constructions">Support</Link>
               </li>
               <li>
-                <Link to="#newsletter">Newsletter</Link>
+                <Link to="/under-constructions">Newsletter</Link>
               </li>
               <li>
-                <Link to="#careers">Careers</Link>
+                <Link to="/under-constructions">Careers</Link>
               </li>
               <li>
-                <Link to="#press">Press Kit</Link>
+                <Link to="/under-constructions">Press Kit</Link>
               </li>
             </ul>
           </div>
@@ -131,9 +131,9 @@ const Footer = () => {
               <p>&copy; {currentYear} Maya Bell. All rights reserved.</p>
             </div>
             <div className="footer-bottom-links">
-              <a href="#privacy">Privacy Policy</a>
-              <a href="#terms">Terms of Service</a>
-              <a href="#cookies">Cookie Policy</a>
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Privacy Policy</a>
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Terms of Service</a>
+              <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv">Cookie Policy</a>
             </div>
           </div>
         </div>

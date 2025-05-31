@@ -1,7 +1,9 @@
+import Error from "./error"
+
 const Animation = () => {
     return ( 
         <div className="animation">
-            Animation
+            <Error />
         </div>
      );
 }

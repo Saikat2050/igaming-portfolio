@@ -31,19 +31,19 @@ const Navbar = () => {
         
         {/* Social Media Icons */}
         <div className="navbar-social">
-          <a href="#" className="social-link" aria-label="Instagram">
+          <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="Instagram">
             <Instagram size={18} />
           </a>
-          <a href="#" className="social-link" aria-label="YouTube">
+          <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="YouTube">
             <Youtube size={18} />
           </a>
-          <a href="#" className="social-link" aria-label="Twitter">
+          <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="Twitter">
             <Twitter size={18} />
           </a>
-          <a href="#" className="social-link" aria-label="Facebook">
+          <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="Facebook">
             <Facebook size={18} />
           </a>
-          <a href="#" className="social-link" aria-label="RSS Feed">
+          <a href="https://lottiefiles.com/free-animation/404-error-lottie-animation-A4rp5gxeyv" className="social-link" aria-label="RSS Feed">
             <Rss size={18} />
           </a>
         </div>
