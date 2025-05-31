@@ -2,7 +2,7 @@ import React from "react";
 import "./Styles/Footer.css";
 import { Instagram, Youtube, Twitter, Facebook, Rss, Send } from "lucide-react";
 import { Link } from "react-router-dom";
-import image from "../Images/maya-bell-nav-logo.png";
+// import image from "../Images/maya-bell-nav-logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
