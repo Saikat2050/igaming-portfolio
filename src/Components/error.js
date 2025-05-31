@@ -7,38 +7,36 @@ const Error = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [currentIcon, setCurrentIcon] = useState(0);
 
-  const glitchTexts = [
-    'Something Went Off Script...',
-    'S0m3th1ng W3nt 0ff Scr1pt...',
-    '5om3th1ng W3n7 0ff 5cr1p7...',
-    'Something Went Off Script...'
-  ];
-
   const rotatingIcons = ['🎲', '🎰', '🃏', '🎮', '🎯'];
 
   useEffect(() => {
+    const glitchTexts = [
+      'Something Went Off Script...',
+      'S0m3th1ng W3nt 0ff Scr1pt...',
+      '5om3th1ng W3n7 0ff 5cr1p7...',
+      'Something Went Off Script...'
+    ];
+  
     setIsVisible(true);
-    
-    // Glitch text effect
+  
     const glitchInterval = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * glitchTexts.length);
       setGlitchText(glitchTexts[randomIndex]);
-      
+  
       setTimeout(() => {
         setGlitchText(glitchTexts[0]);
       }, 150);
     }, 3000);
-
-    // Rotating icons
+  
     const iconInterval = setInterval(() => {
       setCurrentIcon((prev) => (prev + 1) % rotatingIcons.length);
     }, 2000);
-
+  
     return () => {
       clearInterval(glitchInterval);
       clearInterval(iconInterval);
     };
-  }, [glitchTexts, rotatingIcons.length]);
+  }, [rotatingIcons.length]);
 
   return (
     <div className="error-page">
