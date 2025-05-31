@@ -35,24 +35,25 @@ const Preloader = ({ onLoadingComplete }) => {
         // Create comprehensive list of images to preload
         const imagesToPreload = [
           // Common image paths from images directory
-          "./Images/3d-cartoon-rendering-person-playing-casino (1).jpg",
-          "./Images/3d-cartoon-rendering-person-playing-casino (2).jpg",
-          "./Images/3d-cartoon-rendering-person-playing-casino (5).jpg",
-          "./Images/3d-cartoon-rendering-person-playing-casino (7).jpg",
-          "./Images/blackjack-1-forever-together.jpg",
-          "./Images/blackjack-2-jungle-beast.jpg",
-          "./Images/casino-1-gang-boss.jpg",
-          "./Images/casino-2-aqua-gaming.jpg",
-          "./Images/casoni-3-beach-game.jpg",
-          "./Images/gambling-lady.jpg",
-          "./Images/maya-bell-logo.png",
-          "./Images/maya-bell-nav-logo.png",
-          "./Images/poker-1-godfather-awakening.jpg",
-          "./Images/rolulette-1-business.jpg",
-          "./Images/slot-1-bet-arena.jpg",
-          "./Images/slot-2-police-chase.jpg",
-          "./Images/slot-3-eltro-casino.jpg",
-          "./Images/slot-4-modern-gods.jpg",
+          "/Images/3d-cartoon-rendering-person-playing-casino (1).jpg",
+          "/Images/3d-cartoon-rendering-person-playing-casino (2).jpg",
+          "/Images/3d-cartoon-rendering-person-playing-casino (5).jpg",
+          "/Images/3d-cartoon-rendering-person-playing-casino (7).jpg",
+          "/Images/blackjack-1-forever-together.jpg",
+          "/Images/blackjack-2-jungle-beast.jpg",
+          "/Images/casino-1-gang-boss.jpg",
+          "/Images/casino-2-aqua-gaming.jpg",
+          "/Images/casoni-3-beach-game.jpg",
+          "/Images/gambling-lady.jpg",
+          "/Images/maya-bell-logo.png",
+          "/Images/maya-bell-nav-logo.png",
+          "/Images/poker-1-godfather-awakening.jpg",
+          "/Images/rolulette-1-business.jpg",
+          "/Images/slot-1-bet-arena.jpg",
+          "/Images/slot-2-police-chase.jpg",
+          "/Images/slot-3-eltro-casino.jpg",
+          "/Images/slot-4-modern-gods.jpg",
+          "/Images/Roulette-2-zombie-attack.jpg"
         ];
 
         // Remove duplicates

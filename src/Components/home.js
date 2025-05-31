@@ -15,6 +15,7 @@ import image18 from "../Images/casino-2-aqua-gaming.jpg";
 import image19 from "../Images/casoni-3-beach-game.jpg";
 import image20 from "../Images/slot-4-modern-gods.jpg";
 import image21 from "../Images/poker-1-godfather-awakening.jpg";
+import image22 from "../Images/Roulette-2-zombie-attack.jpg";
 
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -91,6 +92,12 @@ const Home = () => {
       title: "Beach Gaming",
       image: image19,
       category: "Casino",
+    },
+    {
+      id: 12,
+      title: "Zombie Attack",
+      image: image22,
+      category: "Roulette",
     }
   ];
 
