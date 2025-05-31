@@ -38,7 +38,7 @@ const Error = () => {
       clearInterval(glitchInterval);
       clearInterval(iconInterval);
     };
-  }, []);
+  }, [glitchTexts, rotatingIcons.length]);
 
   return (
     <div className="error-page">
