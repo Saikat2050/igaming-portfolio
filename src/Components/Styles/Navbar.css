@@ -46,7 +46,13 @@
   }
   
   .nav-link:hover {
-    color: #d1d5db;
+    color: #f27c00;
+    /* border-bottom: 3px solid #f27c00; */
+  }
+
+  .nav-link.active {
+    /* border-bottom: 3px solid #f27c00; */
+    color: #f27c00;
   }
   
   .navbar-social {

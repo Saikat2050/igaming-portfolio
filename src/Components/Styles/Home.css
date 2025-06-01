@@ -64,8 +64,9 @@ body {
 .carousel-text {
     font-size: 3rem;
     font-weight: bold;
-    text-shadow: 2px 2px 8px #f27c00;
-    background: linear-gradient(45deg, #f27c00, #f27c00, #f27c00);
+    /* text-shadow: 2px 2px 8px #f27c00; */
+    /* background: linear-gradient(45deg, #f27c00, #f27c00, #f27c00); */
+    background: linear-gradient(45deg, #f27c00, #dc143c, #f27c00);
     /* color: #f27c00; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

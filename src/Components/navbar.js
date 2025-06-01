@@ -2,10 +2,13 @@
 import React from 'react';
 import { Instagram, Youtube, Twitter, Facebook, Rss } from 'lucide-react';
 import './Styles/Navbar.css'; // Import the CSS file
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import image from '../Images/maya-bell-nav-logo.png';
 
 const Navbar = () => {
+  const location = useLocation();
+  const isActive = (path) => location.pathname === path;
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -23,10 +26,10 @@ const Navbar = () => {
         
         {/* Navigation Links */}
         <div className="navbar-links">
-          <Link to="/" className="nav-link">Home</Link>
-          <Link to="/about-us" className="nav-link">About</Link>
-          <Link to="/art" className="nav-link">Arts</Link>
-          <Link to="/animation" className="nav-link">Animations</Link>
+          <Link to="/" className={`nav-link ${isActive('/') ? 'active' : ''}`}>Home</Link>
+          <Link to="/about-us" className={`nav-link ${isActive('/about-us') ? 'active' : ''}`}>About</Link>
+          <Link to="/art" className={`nav-link ${isActive('/art') ? 'active' : ''}`}>Arts</Link>
+          <Link to="/animation" className={`nav-link ${isActive('/animation') ? 'active' : ''}`}>Animations</Link>
         </div>
         
         {/* Social Media Icons */}

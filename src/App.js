@@ -142,7 +142,7 @@ const Preloader = ({ onLoadingComplete }) => {
             isComplete = true;
             onLoadingComplete();
           }
-        }, 6800);
+        }, 4200);
       } catch (error) {
         console.error("Error during preloading:", error);
         // Still complete loading even if there's an error
@@ -151,7 +151,7 @@ const Preloader = ({ onLoadingComplete }) => {
             isComplete = true;
             onLoadingComplete();
           }
-        }, 7200);
+        }, 7800);
       }
     };
 
